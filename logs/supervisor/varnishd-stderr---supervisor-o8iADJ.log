@@ -1,0 +1,111 @@
+Debug: Platform: Linux,4.9.93-boot2docker,x86_64,-jnone,-smalloc,-smalloc,-hcritbit
+
+Debug: Child (90) Started
+Info: Child (90) said Child starts
+Error: Child (90) died signal=11
+Error: Child (90) Last panic at: Thu, 19 Jul 2018 16:48:35 GMT
+"Wrong turn at cache/cache_session.c:542:
+Clock step detected
+thread = (cache-worker)
+version = varnish-4.1.4 revision 4529ff7
+ident = Linux,4.9.93-boot2docker,x86_64,-jnone,-smalloc,-smalloc,-hcritbit,epoll
+now = 124775.788559 (mono), 1532018914.889523 (real)
+Backtrace:
+  0x55dd32dcfc2b: varnishd(+0x46c2b) [0x55dd32dcfc2b]
+  0x55dd32dd00a4: varnishd(+0x470a4) [0x55dd32dd00a4]
+  0x55dd32dda29e: varnishd(SES_Delete+0x1e2) [0x55dd32dda29e]
+  0x55dd32dd1e1a: varnishd(Req_Cleanup+0x468) [0x55dd32dd1e1a]
+  0x55dd32df7384: varnishd(HTTP1_Session+0x845) [0x55dd32df7384]
+  0x55dd32dd93a8: varnishd(SES_Proto_Req+0x14c) [0x55dd32dd93a8]
+  0x55dd32def61c: varnishd(+0x6661c) [0x55dd32def61c]
+  0x55dd32dee058: varnishd(+0x65058) [0x55dd32dee058]
+  0x55dd32def75f: varnishd(+0x6675f) [0x55dd32def75f]
+  0x7fd546adc494: libpthread.so.0(+0x7494) [0x7fd546adc494]
+req = 0x7fd5375b1020 {
+  MAGIC 0x00000000 (Should:REQ_MAGIC/0x2751aaa1)
+  vxid = 0, step = R_STP_RESTART,
+  req_body = R_BODY_INIT,
+  restarts = 0, esi_level = 0,
+  ws = 0x7fd5375b1200 {
+    MAGIC 0x00000000 (Should:WS_MAGIC/0x35fac554)
+    id = \"\",
+    {s,f,r,e} = {(nil),(nil),(nil),(nil)},
+  },
+  http[req] = (nil) {
+"
+Debug: Child cleanup complete
+Debug: Child (25464) Started
+Info: Child (25464) said Child starts
+Error: Child (25464) died signal=11
+Error: Child (25464) Last panic at: Thu, 19 Jul 2018 17:05:40 GMT
+"Wrong turn at cache/cache_session.c:542:
+Clock step detected
+thread = (cache-worker)
+version = varnish-4.1.4 revision 4529ff7
+ident = Linux,4.9.93-boot2docker,x86_64,-jnone,-smalloc,-smalloc,-hcritbit,epoll
+now = 125800.598692 (mono), 1532019939.727068 (real)
+Backtrace:
+  0x55dd32dcfc2b: varnishd(+0x46c2b) [0x55dd32dcfc2b]
+  0x55dd32dd00a4: varnishd(+0x470a4) [0x55dd32dd00a4]
+  0x55dd32dda29e: varnishd(SES_Delete+0x1e2) [0x55dd32dda29e]
+  0x55dd32dd1e1a: varnishd(Req_Cleanup+0x468) [0x55dd32dd1e1a]
+  0x55dd32df7384: varnishd(HTTP1_Session+0x845) [0x55dd32df7384]
+  0x55dd32dd93a8: varnishd(SES_Proto_Req+0x14c) [0x55dd32dd93a8]
+  0x55dd32def61c: varnishd(+0x6661c) [0x55dd32def61c]
+  0x55dd32dee058: varnishd(+0x65058) [0x55dd32dee058]
+  0x55dd32def75f: varnishd(+0x6675f) [0x55dd32def75f]
+  0x7fd546adc494: libpthread.so.0(+0x7494) [0x7fd546adc494]
+req = 0x7fd5374fd020 {
+  MAGIC 0x00000000 (Should:REQ_MAGIC/0x2751aaa1)
+  vxid = 0, step = R_STP_RESTART,
+  req_body = R_BODY_INIT,
+  restarts = 0, esi_level = 0,
+  ws = 0x7fd5374fd200 {
+    MAGIC 0x00000000 (Should:WS_MAGIC/0x35fac554)
+    id = \"\",
+    {s,f,r,e} = {(nil),(nil),(nil),(nil)},
+  },
+  http[req] = (nil) {
+"
+Debug: Child cleanup complete
+Debug: Child (26502) Started
+Info: Child (26502) said Child starts
+Error: Child (26502) died signal=11
+Error: Child (26502) Last panic at: Thu, 19 Jul 2018 17:39:50 GMT
+"Wrong turn at cache/cache_session.c:542:
+Clock step detected
+thread = (cache-worker)
+version = varnish-4.1.4 revision 4529ff7
+ident = Linux,4.9.93-boot2docker,x86_64,-jnone,-smalloc,-smalloc,-hcritbit,epoll
+now = 127850.348138 (mono), 1532021989.530114 (real)
+Backtrace:
+  0x55dd32dcfc2b: varnishd(+0x46c2b) [0x55dd32dcfc2b]
+  0x55dd32dd00a4: varnishd(+0x470a4) [0x55dd32dd00a4]
+  0x55dd32dda29e: varnishd(SES_Delete+0x1e2) [0x55dd32dda29e]
+  0x55dd32dd1e1a: varnishd(Req_Cleanup+0x468) [0x55dd32dd1e1a]
+  0x55dd32df7384: varnishd(HTTP1_Session+0x845) [0x55dd32df7384]
+  0x55dd32dd93a8: varnishd(SES_Proto_Req+0x14c) [0x55dd32dd93a8]
+  0x55dd32def61c: varnishd(+0x6661c) [0x55dd32def61c]
+  0x55dd32dee058: varnishd(+0x65058) [0x55dd32dee058]
+  0x55dd32def75f: varnishd(+0x6675f) [0x55dd32def75f]
+  0x7fd546adc494: libpthread.so.0(+0x7494) [0x7fd546adc494]
+req = 0x7fd537406020 {
+  MAGIC 0x00000000 (Should:REQ_MAGIC/0x2751aaa1)
+  vxid = 0, step = R_STP_RESTART,
+  req_body = R_BODY_INIT,
+  restarts = 0, esi_level = 0,
+  ws = 0x7fd537406200 {
+    MAGIC 0x00000000 (Should:WS_MAGIC/0x35fac554)
+    id = \"\",
+    {s,f,r,e} = {(nil),(nil),(nil),(nil)},
+  },
+  http[req] = (nil) {
+"
+Debug: Child cleanup complete
+Debug: Child (28356) Started
+Info: Child (28356) said Child starts
+Error: Manager got SIGINT
+Debug: Stopping Child
+Info: Child (28356) ended
+Info: Child (28356) said Child dies
+Debug: Child cleanup complete
